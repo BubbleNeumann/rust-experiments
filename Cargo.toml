@@ -8,5 +8,9 @@ edition = "2021"
 name = "binary-search"
 path = "src/binary_search.rs"
 
+[[bin]]
+name = "codeforces"
+path = "src/codeforces1738B.rs"
+
 [dependencies]
 rand = "0.8"
